@@ -3,6 +3,8 @@ import sha256 from 'js-sha256';
 import { BigInteger } from 'jsbn';
 import JSEncrypt from './jsencrypt.js';
 
+console.log({ JSEncrypt: new JSEncrypt() });
+
 function keyGeneration(params) {
   const key = { keyPair: new JSEncrypt().getKey() }; //new NodeRSA(params || { b: 2048 });
   return key;

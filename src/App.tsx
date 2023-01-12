@@ -4,6 +4,7 @@ import './App.css';
 import { BlindSignature } from './rsa/rsablind';
 
 const key = BlindSignature.keyGeneration();
+console.log({key})
 
 /*
 https://zh.m.wikipedia.org/zh-sg/RSA%E5%8A%A0%E5%AF%86%E6%BC%94%E7%AE%97%E6%B3%95
